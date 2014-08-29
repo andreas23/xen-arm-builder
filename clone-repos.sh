@@ -46,6 +46,9 @@ else
   cd ..
 fi
 
+wget -O linux-firmware/brcm/brcmfmac43362-sdio.txt http://dl.cubieboard.org/public/Cubieboard/benn/firmware/ap6210/nvram_ap6210.txt
+
+
 if [ ! -d xen ]; then
   #clone_branch git://xenbits.xen.org xen stable-4.4
   clone_branch https://github.com/talex5 xen stable-4.4
